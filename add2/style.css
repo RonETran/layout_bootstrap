@@ -1,0 +1,43 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+  }
+ 
+  .nav{
+    position: fixed;
+    width: 100%;
+    height: 47px;
+    background-color: black;
+  }
+  .home ul a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    float: left;
+    padding: 16px 24px;
+  }
+  .slider{
+    position: relative;
+  }
+  .slider img{
+    width: 100%;
+    height: 100vh;
+    margin-top: 47px;
+    position: absolute;
+  }
+  .slider-content{
+    z-index: 1;
+    position: absolute;
+    color: white;
+    left: 50%;
+    transform: translateY(50%);
+  }
+  
+ 
